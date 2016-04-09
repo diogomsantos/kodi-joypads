@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <joystick name="USB Gamepad "> <!--Retrolink SNES-->
+      <button id="2">Select</button><!--A-->
+      <button id="3">Back</button><!--B-->
+      <button id="1">Stop</button><!--X-->
+      <button id="4">ContextMenu</button><!--Y-->
+      <button id="5">Rewind</button><!--L-->
+      <button id="6">FastForward</button><!--R-->
+      <button id="9">Info</button><!--SELECT-->
+      <button id="10">PlayPause</button><!--START-->
+      <button id="9,10">Quit</button><!--SELECT+START-->
+      <axis id="1" limit="+1">Right</axis><!--RIGHT-->
+      <axis id="1" limit="-1">Left</axis><!--LEFT-->
+      <axis id="2" limit="-1">Up</axis><!--UP-->
+      <axis id="2" limit="+1">Down</axis><!--DOWN-->
+    </joystick>
+  </global>
+</keymap>
